@@ -12,11 +12,12 @@
   gap: 15px;
 }
 .zoom{
-    width: 55px;
+   width: 55px;
    height: 55px;
    object-fit: contain;
    cursor: pointer;
-   border-radius: 10px;
+   border-radius: 30px;
+   border: 1px solid black;
    transition: 0.2s;
 }
 .zoom:hover {
@@ -24,13 +25,16 @@
 }
 
 .imgcentral{
-   flex: 1;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ebf2f8;
+    padding: 50px;
+    display: inline-block;
 }
-.imgcentral img{
+.imgcentral img {
     width: 100%;
-  max-width: 450px;
-  object-fit: contain;
+    max-width: 400px;
+    object-fit: contain;
 }
