@@ -1,45 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Store</title>
     <link rel="stylesheet" href="./style.css">
 </head>
- <body>
-<header>
-    <nav>
-        <img src="./images/google-logo.png" alt="Google Store Logo">
-        <ul class="menu">
-            <li><a href="./products.html">Phones</a></li>
-            <li><a href="./products.html">Earbuds</a></li>
-            <li><a href="./products.html">Watches</a></li>
-            <li><a href="./products.html">Smart home</a></li>
-            <li><a href="./products.html">Accessories</a></li>
-            <li><a href="./products.html">Subscriptions</a></li>   
-        </ul>
-        <img src="./images/icons/Search.svg" alt="Search icon">
-        <img src="./images/icons/Help.svg" alt="Help icon">
-        <img src="./images/icons/Cart.svg" alt="Cart icon">
-        <img src="./images/icons/Avatar.svg" alt="Avatar icon">
-    </nav>
-</header>
 
+<body>
+    <div class="headercontainer">
+        <header class="header">
+            <nav class="nav">
+                <div class="navcontainer">
+                    <ul class="navlist">
+                        <li class="navitemGoogle">
+                            <a href="./index.html"> <!-- Google Store-->
+                                <img src="./images/google-logo.png" alt="Google Store Logo">
+                            </a>
+                            <!-- <span>
+                                <img src="./images/google-logo.png" alt="Google Store Logo">
+                            </span> -->
+                        </li>
+                        <div class="navcontainermenu1">
+                            <ul class="navlistmenu1">
+                                <li><a href="./products.html">Phones</a></li>
+                                <li><a href="./products.html">Earbuds</a></li>
+                                <li><a href="./products.html">Watches</a></li>
+                                <li><a href="./products.html">Smart home</a></li>
+                                <li><a href="./products.html">Accessories</a></li>
+                                <li><a href="./products.html">Subscriptions</a></li>
+                            </ul>
+                        </div>
+                        <div class="navcontainermenu2">
+                            <ul class="navlistmenu2">
+                                <img src="./images/icons/Search.svg" alt="Search icon">
+                                <img src="./images/icons/Help.svg" alt="Help icon">
+                                <img src="./images/icons/Cart.svg" alt="Cart icon">
+                                <img src="./images/icons/Avatar.svg" alt="Avatar icon">
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
     <main>
         <section class="galeria">
             <div class="arrow">
-                <a href="./products.html"><img src="./images/icons/Arrow.svg">
-                    <span>product details</span>
-                </a>
+                <a href="./products.html"><img src="./images/icons/Arrow.svg" alt="descrition"></a>
+                <span>product details</span>
             </div>
-            <div class="earbods">
-                <img src="./images/earbuds/earbuds_01.png">
-                <img src="./images/earbuds/earbuds_02.png">
-                <img src="./images/earbuds/earbuds_03.png">
-                <img src="./images/earbuds/earbuds_04.png">
-            </div>
-            <div class="imgcentral">
-                <img src="./images/earbuds/earbuds_01.png">
+            <div class="vista-producto">
+                <div class="earbuds">
+                    <img src="./images/earbuds/earbuds_01.png" class="casco" alt="casco">
+                    <img src="./images/earbuds/earbuds_02.png" class="casco" alt="casco">
+                    <img src="./images/earbuds/earbuds_03.png" class="casco" alt="casco">
+                    <img src="./images/earbuds/earbuds_04.png" class="casco" alt="casco">
+                </div>
+                <div class="imgcentral">
+                    <img id="mainDisplay" src="./images/earbuds/earbuds_01.png" class="con-borde">
+                </div>
             </div>
         </section>
         <section class="info">
@@ -58,6 +79,12 @@
                 <span class="color5"></span>
                 <span class="color6"></span>
             </div>
+            </section>
+            <section>
+                <h2>229.00€</h2>
+            </section>
+        </main>  
+    </div>
         </section>
         <section>
             <h2>229.00€</h2>
