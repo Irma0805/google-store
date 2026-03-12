@@ -22,10 +22,26 @@ font-weight: bold;
     border: solid 1px #57626b;
 }
 
+.quantity{
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom:30px;
+}
+element.style{
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom:20px;
+    width: 290px;
+    font-size: 20px;
+}
+
 .numbers{
     color: #0b0b0b;
     font-family: Inter, sans-serif;
-    font-size: 35px;
+    width: 290px;
+    font-size: 20px;
     font-weight: bold;
 }
 .numbers hr{
@@ -113,8 +129,8 @@ button{
     background-color: blue;
     color: white;
     font-family:Inter, sans-serif;
-    width: 260px;
-    font-size: 16px;
+    width: 290px;
+    font-size: 20px;
 
 } 
 
