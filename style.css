@@ -33,26 +33,15 @@ body{
     height: 60px;
     object-fit: contain;
     border-radius: 30px;
-    border: 1px solid black;
-    transition: transform 0.3s;
-    cursor: zoom-in;
+    border: 1px solid black;  
 }
-
-.casco:hover {
-    transform: scale(1.05);
-}
-
+  
 .imgcentral {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 100px;
     display: inline-block;
 }
-
-.imgcentral img {
-    width: 50%;
-    max-width: 400px;
-    object-fit: contain;
-}
+ 
