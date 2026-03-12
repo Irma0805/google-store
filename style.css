@@ -28,6 +28,7 @@ body{
     gap: 15px;
 }
 
+
 .casco {
     width: 60px;
     height: 60px;
@@ -92,6 +93,7 @@ body{
     margin-left: 20px;
 }
     
+
 /* FOOTER, distribución de los elementos del footer*/
 
 footer .container{
