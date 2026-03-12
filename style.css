@@ -44,4 +44,51 @@ body{
     padding: 100px;
     display: inline-block;
 }
+
+
  
+.headercontainer {
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: flex-end; */
+  
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navitemGoogle {
+    margin-right: 20px;
+}
+
+.navitemGoogle img {
+    width: 100px;
+    height: auto;
+}   
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+} 
+
+.menu li {
+    margin-right: 20px;
+}  
+
+.navcontainer img {
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+} 
+
