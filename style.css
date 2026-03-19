@@ -6,7 +6,7 @@
   box-sizing:border-box;
 }
 
-/*VARIABLES*/
+
 :root{
 --white:#FFFFFF;
 --gray-light:#F8F9FA;/*gris claro*/
@@ -33,36 +33,34 @@ img{
     display: block;
 }
 
-/*HeaderDebby*/
  
 header{
     border-bottom: 1px solid var(--border-color);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);/*ponemos la sombra 0 no se mueve a los lados, 4px se mueve hacia abajo, 6px difuminado y color*/
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);/
 }
 
-/*los enlaces y el logo, entran dentro de .nav*/
+
 nav{
-    display: flex;/*coloca los elementos uno al lado del otro*/
-    align-items: center;/*los elementos se centran*/
-    justify-content: space-between;/*los colocamos de extremo a extremo*/
-    padding: 12px 20px;/*12 px se separa de arriba y abajo 20px los separamos de los lados*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 20px;
 }
 
 nav img{
-    width: 36px;/*tamaño del logo*/
+    width: 36px;
 }
 
 
-/*menu oculto en el móvil*/
 .menu {
     display: none;
-    list-style: none;/*quitamos los puntos de los enlaces*/
+    list-style: none;
 } 
 
 .menu a{
-    text-decoration: none;/*quita el subrayado de los enlaces*/
-    color: var(--text-dark);/*cambia el color azul al color que se ha pedido*/
-    font-size: 15px;/*tamaño de letra*/
+    text-decoration: none;
+    color: var(--text-dark);
+    font-size: 15px;
     transition: color 0.2s ease;
 }
 
@@ -73,27 +71,19 @@ nav img{
 .icons{
     display: flex;
     list-style: none;
-    gap: 18px;/*separación entre ellos*/
+    gap: 18px;
 }
 
 .icons img{
-    width: 20px;/*tamaño de los iconos de carrito, etc.*/
+    width: 20px;
 }
-
-
-
-
-/*MAIN CONTENEDOR adaptado a MOBILE*/
 
 main{
     display: flex;
-    flex-direction: column;/*dividimos el espacio para las dos secciones*/
-    gap: 30px;/*los separamos entre ellos*/
-    padding: 20px;/*separación lateral*/
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
 }
-
-
-/*GALERIA*/
 
 .arrow{
     display: flex;
@@ -113,18 +103,16 @@ main{
 .product-gallery{
     display: flex;
     gap: 15px;
-    /*align-items: center;alinea las imagenes veticalmente respecto a la imagen central*/
+    
 }
 
 .thumbnails{
     display: none;
-    /*flex-direction: column;
-    gap: 20px;*/
 }
   
 .thumbnails img{
-    width: 60px;/*tamaño de las imagenes*/
-    border-radius: 50%;/*redondeamos las imagenes*/
+    width: 60px;
+    border-radius: 50%;
     border: 1px solid var(--text-dark);
 }
 
@@ -147,7 +135,7 @@ main{
 .main-image img {
  width: 80%;
  height: 280px;
-  object-fit: contain;/*reproduce el cuadro gris grande*/
+  object-fit: contain;
 }
 
 
@@ -162,7 +150,7 @@ main{
 .product-info h1{
     font-size: 35px;
     font-weight: bold;
-    color: var(--text-dark);/*gris oscuro*/
+    color: var(--text-dark);
 }
 
  .product-info h2{
@@ -184,7 +172,6 @@ hr {
     margin: 20px 0;
 }
 
-/*COLORS*/
 
 .color-list{
     display: flex;
@@ -194,8 +181,8 @@ hr {
 
 
 .color{
-    width: 36px;/*ancho*/
-    height: 36px;/*alto*/
+    width: 36px;
+    height: 36px;
     border-radius: 50%;
     border: 1px solid #333;
 }
@@ -208,16 +195,13 @@ hr {
 .pink{background:#e47285;}
 
 
-/*PURCHASE*/
-
 .purchase{
-    background: var(--gray-light);/*usamos la variable creada en :root*/
+    background: var(--gray-light);
     padding:24px;
     border-radius:var(--border-radius);
     display:flex;
     flex-direction:column;
     gap:18px;
-   /* margin-top: 20px;*/
 }
 
 .purchase-controls{
@@ -244,14 +228,11 @@ button{
     background:var(--primary);
     color: white;
 
-    border: none;/*quitamos el borde del recuadro*/
+    border: none;/
     padding: 14px;
-    border-radius: var(--border-radius);/*redondeamos el boton*/
-    font-weight: 500;
-    cursor: pointer;/*cambiamos la flecaha de indicación por una mano*/
+    border-radius: var(--border-radius);
+    cursor: pointer;
 }
-
-/*DELIVERY*/
 
 .delivery{
     display: flex;
@@ -274,8 +255,6 @@ strong{
 }     
 
 
-/* FOOTER, distribución de los elementos del footer*/
-
 footer{  
   margin-top:auto;
   border-top:1px solid #ddd;
@@ -290,19 +269,16 @@ footer{
 }
 
 
-/*redes sociales*/
 .social{
   display:flex;
-  list-style:none;/*quita los puntos de los enlaces*/
-  gap:18px;/*espacio entre ellos*/
-  
+  list-style:none;
+  gap:18px; 
 }
 
 .social img{
   width: 20px;
 }
 
-/*bandera y país*/
 .country{
   display: flex;
   align-items: center;
@@ -314,14 +290,13 @@ footer{
   width: 20px;
 }
 
-/*enlaces legales*/
 .legal{
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 .legal a{
-  text-decoration:none;/*quita el subrayado de los enlaces*/
+  text-decoration:none;
   color:#555;
   font-size: 14px;
  
@@ -333,11 +308,6 @@ footer{
 
 
 
-
-
-
-
-/*MEDIA QUERIE TABLET*/
 @media (min-width:768px){
 
 
@@ -381,16 +351,12 @@ width:420px;
 height:420px;
 }
 
-
-
 }
 
 
-
-/*MEDIA QUERIE DESKTOP*/
 @media (min-width:1024px){
 
-/*media query desktop ya tienes gap:80px, pero conviene asegurar alineación.*/
+
 main{
 flex-direction:row;
 gap:80px;
