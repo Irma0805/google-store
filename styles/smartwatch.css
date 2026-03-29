@@ -44,7 +44,7 @@ nav{
 }
 
 nav img{
-    width: 36px;
+    width: 26px;
 }
 
 .menu {
@@ -153,7 +153,7 @@ hr {
   border:1px solid var(--border-color);
   border-radius:12px;
   padding:16px;
-  width:130px;
+  width:100px;
 
   display:flex;
   flex-direction:column;
