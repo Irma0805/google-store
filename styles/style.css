@@ -118,7 +118,12 @@ main{
 
 .thumbnails img:hover{
     border-color: var(--text-dark);
-    color: pointer;
+    cusor: pointer;
+}
+
+.thumbnails img.active{
+    border: 2px solid var(--primary);
+    border-radius: 50%;
 }
 
 
@@ -191,9 +196,9 @@ hr {
 }
 
 .blue{background:#6a8cf0;}
-.gray{background:#ccc;}
+.lightgray{background:#ccc;}
 .black{background:#000;}
-.white{background:#777;}
+.gray{background:#777;}
 .green{background:#b6de70;}
 .pink{background:#e47285;}
 
