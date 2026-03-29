@@ -181,10 +181,13 @@ hr {
 
 
 .color{
+    display: inline-block;
     width: 36px;
     height: 36px;
     border-radius: 50%;
     border: 1px solid #333;
+    cursor: pointer;
+    transition: transform 0.2 ease, border 0.2s ease;
 }
 
 .blue{background:#6a8cf0;}
@@ -193,6 +196,15 @@ hr {
 .white{background:#777;}
 .green{background:#b6de70;}
 .pink{background:#e47285;}
+
+.color-option input{
+    display: none;
+}
+
+.color-option input:checked + .color{
+    border: 3px solid var(--text-dark);
+    transform: scale(1.2);
+}
 
 
 .purchase{
@@ -233,6 +245,7 @@ button{
     border-radius: var(--border-radius);
     cursor: pointer;
 }
+
 
 .delivery{
     display: flex;
